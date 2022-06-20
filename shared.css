@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.navigation__list {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 20px 30px;
+}
+
+@media (min-width: 769px) {
+  .navigation__list {
+    justify-content: flex-end;
+  }
+}

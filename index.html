@@ -2,10 +2,21 @@
 <html lang="en">
   <head>
     <title>Search</title>
+    <link rel="stylesheet" href="shared.css" />
     <link rel="stylesheet" href="index.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
+    <nav>
+      <ul class="navigation__list">
+        <li>
+          <a href="/image-search.html">Image Search</a>
+        </li>
+        <li>
+          <a href="/advanced-search.html">Advanced Search</a>
+        </li>
+      </ul>
+    </nav>
     <form class="search-form" action="https://www.google.com/search">
       <input class="search-form__input" type="text" name="q" autofocus />
       <button class="search-form__button" type="submit">Google Search</button>
