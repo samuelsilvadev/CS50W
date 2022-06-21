@@ -14,5 +14,60 @@
         </li>
       </ul>
     </nav>
+    <main class="advanced-search__wrapper">
+      <h1 class="advanced-search__title">Find pages with...</h1>
+      <form
+        action="https://www.google.com/search"
+        class="advanced-search__form"
+      >
+        <div class="advanced-search__input__wrapper">
+          <label for="all-these-words" class="advanced-search__label"
+            >all these words:</label
+          >
+          <input
+            type="text"
+            name="as_q"
+            id="all-these-words"
+            class="advanced-search__input"
+          />
+        </div>
+        <div class="advanced-search__input__wrapper">
+          <label for="exact-word-or-phrase" class="advanced-search__label"
+            >this exact word or phrase:</label
+          >
+          <input
+            type="text"
+            name="as_epq"
+            id="exact-word-or-phrase"
+            class="advanced-search__input"
+          />
+        </div>
+        <div class="advanced-search__input__wrapper">
+          <label for="any-of-these-words" class="advanced-search__label"
+            >any of these words:</label
+          >
+          <input
+            type="text"
+            name="as_oq"
+            id="any-of-these-words"
+            class="advanced-search__input"
+          />
+        </div>
+        <div class="advanced-search__input__wrapper">
+          <label for="none-of-these-words" class="advanced-search__label"
+            >none of these words:</label
+          >
+          <input
+            type="text"
+            name="as_eq"
+            id="none-of-these-words"
+            class="advanced-search__input"
+          />
+        </div>
+        <button class="advanced-search__button" type="submit">
+          Advanced Search
+        </button>
+      </form>
+    </main>
   </body>
 </html>
