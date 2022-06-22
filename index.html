@@ -3,6 +3,7 @@
   <head>
     <title>Search</title>
     <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="index.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
@@ -18,7 +19,12 @@
     </nav>
     <form class="search-form" action="https://www.google.com/search">
       <input class="search-form__input" type="text" name="q" autofocus />
-      <button class="search-form__button" type="submit">Google Search</button>
+      <div class="search-form__buttons-wrapper">
+        <button class="search-form__button" type="submit">Google Search</button>
+        <a class="search-form__link" href="https://www.google.com/doodles"
+          >I'm feeling lucky</a
+        >
+      </div>
     </form>
   </body>
 </html>

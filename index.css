@@ -1,0 +1,24 @@
+.search-form__buttons-wrapper {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search-form__link {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  padding: 0 16px;
+  height: 36px;
+  text-decoration: none;
+  color: #000;
+}
+
+.search-form__button,
+.search-form__link {
+  background-color: #f8f9fa;
+  font-size: 14px;
+  margin: 0;
+}
