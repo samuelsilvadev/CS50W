@@ -26,7 +26,7 @@
 }
 
 .advanced-search__input {
-  height: 29px;
+  height: 36px;
   border: 1px solid #d9d9d9;
   padding: 0 10px;
   width: 100%;
@@ -35,12 +35,8 @@
 .advanced-search__button {
   background-color: #4d90fe;
   color: #fff;
-  display: block;
-  cursor: pointer;
-  border: none;
+  margin: 0;
   margin-left: auto;
-  padding: 0 16px;
-  height: 30px;
 }
 
 @media (min-width: 769px) {

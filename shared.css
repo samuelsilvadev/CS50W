@@ -37,12 +37,14 @@ body {
 }
 
 .search-form__button {
+  background-color: #f8f9fa;
   display: block;
   cursor: pointer;
   border: none;
   margin: 25px auto 0;
   padding: 0 16px;
   height: 36px;
+  font-size: 14px;
 }
 
 @media (min-width: 769px) {

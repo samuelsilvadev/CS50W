@@ -8,10 +8,6 @@
 .search-form__link {
   display: flex;
   align-items: center;
-  cursor: pointer;
-  border: none;
-  padding: 0 16px;
-  height: 36px;
   text-decoration: none;
   color: #000;
 }
