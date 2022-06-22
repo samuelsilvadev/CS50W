@@ -1,3 +1,7 @@
+:root {
+  --navigation-height: 58px;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -20,7 +24,7 @@ body {
 
 .search-form {
   max-width: 90%;
-  margin: 50vh auto 0;
+  margin: calc(50vh - var(--navigation-height)) auto 0;
   transform: translateY(-50%);
 }
 
